@@ -28,7 +28,7 @@ const Carousel = () => {
               srcset=""
             />
             <div class="carousel-caption d-none d-md-block">
-              <h2>Braking Bad </h2>
+              <h2>Braking Bad 8 </h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Quisquam, ullam similique. Dolore accusamus voluptate nam,
