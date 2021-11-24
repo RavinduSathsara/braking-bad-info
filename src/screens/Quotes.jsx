@@ -40,13 +40,13 @@ const Quotes = () => {
         <ul>
           {items.map((item) => (
             <div key={item.quote_id} className="card m-5">
-              <div className="card-header">Quote</div>
-              <div className="card-body">
+              <div className="card-header">Quote {item.quote_id}</div>
+              <div className="card-body ">
                 <blockquote className="blockquote mb-0">
                   <p>{item.quote}</p>
                   <footer className="blockquote-footer">
-                    {item.author}
-                    <cite title="Source Title">Source Title</cite>
+                    Quote by --
+                    <cite title="Source Title">{item.author}</cite>
                   </footer>
                 </blockquote>
               </div>
