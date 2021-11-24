@@ -45,7 +45,6 @@ const Quotes = () => {
                 <blockquote className="blockquote mb-0">
                   <p>{item.quote}</p>
                   <footer className="blockquote-footer">
-                    Quote by --
                     <cite title="Source Title">{item.author}</cite>
                   </footer>
                 </blockquote>

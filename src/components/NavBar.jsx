@@ -33,7 +33,7 @@ const NavBar = () => {
               <li className="nav-item m-2">
                 {/* <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" className="d-inline-block align-text-top"> */}
 
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link " aria-current="page" to="/">
                   Home
                 </Link>
               </li>
