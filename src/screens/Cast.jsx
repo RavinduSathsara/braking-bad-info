@@ -49,7 +49,7 @@ const Cast = () => {
                 {/* <img className="card-img-top" src="..." alt="Card image cap"> */}
                 <img
                   src={item.img}
-                  style={{ width: `100%`, height: `100%` }}
+                  style={{ width: `100%`, height: `15vw`, objectFit: ` cover` }}
                   className="card-img-top"
                   alt=""
                   srcset=""
